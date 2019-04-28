@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85938E122244DC2800532CB9 /* tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 85938E112244DC2800532CB9 /* tiny.mlmodel */; };
+		85D1A9512276238C00D9D88E /* erhu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 85D1A9502276238C00D9D88E /* erhu.mlmodel */; };
 		85E68F97224B4B0000B08782 /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E68F96224B4B0000B08782 /* YOLO.swift */; };
 		BC3C745521085D6300F21C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3C745421085D6300F21C9E /* AppDelegate.swift */; };
 		BC3C745721085D6300F21C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3C745621085D6300F21C9E /* ViewController.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85938E112244DC2800532CB9 /* tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = tiny.mlmodel; sourceTree = "<group>"; };
+		85D1A9502276238C00D9D88E /* erhu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = erhu.mlmodel; sourceTree = "<group>"; };
 		85E68F96224B4B0000B08782 /* YOLO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
 		BC3C745121085D6300F21C9E /* Erhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3C745421085D6300F21C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +76,10 @@
 				BC3C746C2108608500F21C9E /* UIImage+CVPixelBuffer.swift */,
 				BC3C746E2108609B00F21C9E /* VideoCapture.swift */,
 				85E68F96224B4B0000B08782 /* YOLO.swift */,
-				85938E112244DC2800532CB9 /* tiny.mlmodel */,
 				BC3C745821085D6300F21C9E /* Main.storyboard */,
-				BC3C745B21085D6400F21C9E /* Assets.xcassets */,
+				85D1A9502276238C00D9D88E /* erhu.mlmodel */,
 				BC3C745D21085D6400F21C9E /* LaunchScreen.storyboard */,
+				BC3C745B21085D6400F21C9E /* Assets.xcassets */,
 				BC3C746021085D6400F21C9E /* Info.plist */,
 			);
 			path = Erhu;
@@ -160,12 +160,12 @@
 				BC3C746721085F9800F21C9E /* BoundingBox.swift in Sources */,
 				BC3C746F2108609B00F21C9E /* VideoCapture.swift in Sources */,
 				85E68F97224B4B0000B08782 /* YOLO.swift in Sources */,
-				85938E122244DC2800532CB9 /* tiny.mlmodel in Sources */,
 				BC3C746D2108608500F21C9E /* UIImage+CVPixelBuffer.swift in Sources */,
 				BC3C745721085D6300F21C9E /* ViewController.swift in Sources */,
 				BC3C745521085D6300F21C9E /* AppDelegate.swift in Sources */,
 				BC3C746921085FBD00F21C9E /* Helpers.swift in Sources */,
 				BC3C746B2108605E00F21C9E /* CVPiexlBuffer+Helpers.swift in Sources */,
+				85D1A9512276238C00D9D88E /* erhu.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

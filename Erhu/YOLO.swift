@@ -41,8 +41,8 @@ class YOLO {
     }
     
 // when selected "tiny" coreML model , change target Membership
-    let model = tiny()
-    public func computeBoundingBoxes(features: tinyOutput) -> [Prediction] {
+    let model = erhu()
+    public func computeBoundingBoxes(features: erhuOutput) -> [Prediction] {
 
 //  when selected "yolo" coreML model , change target Membership
 //   let model = yolo()
@@ -229,7 +229,7 @@ class YOLO {
             }
         }
         
-        print("predictions2:\(predictions)")
+//        print("predictions2:\(predictions)")
         
         // We already filtered out any bounding boxes that have very low scores,
         // but there still may be boxes that overlap too much with others. We'll

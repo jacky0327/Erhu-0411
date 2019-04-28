@@ -13,7 +13,7 @@ import Accelerate
 
 // The labels for the 80 classes.
 
-let labels = ["erhu","bow","righthand","face"]
+let labels = ["bow"]
 
 // for tiny model
 

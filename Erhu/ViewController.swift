@@ -177,7 +177,7 @@ class ViewController: UIViewController {
     func setUpCamera() {
         videoCapture = VideoCapture()
         videoCapture.delegate = self
-        videoCapture.fps = 50
+        videoCapture.fps = 30
         weak var welf = self
         view.bringSubviewToFront(cameraButton)
         
@@ -292,6 +292,10 @@ class ViewController: UIViewController {
                 rect.origin.y += top
                 rect.size.width *= scaleX
                 rect.size.height *= scaleY
+                
+                print("y:", prediction.rect.origin.y)
+//                print("y+height:", prediction.rect.origin.y+prediction.rect.size.height)
+//                print("viewboundsheight", view.bounds.height)
                 
                 // Show the bounding box.
                 let label = String(format: "%@ %.1f", labels[prediction.classIndex], prediction.score)
